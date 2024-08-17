@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Mshop.Entities.Models.ApplicationUser>
+@{
+    ViewBag.PageTitle = "Users Management";
+    ViewBag.CardTitle = "View Users";
+}
+
+<div>
+    <a class="btn btn-primary" href="/Identity/Account/Register">Create new User</a>
+</div>
+
+<br />
+<table class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>PhoneNumber</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.PhoneNumber</td>
+                <td>
+                    @if (item.LockoutEnd == null || item.LockoutEnd < DateTime.Now)
+                    {
+                        <a class="btn btn-success" asp-action="LockUnlock" asp-route-id="@item.Id">
+                            <i class="fas fa-lock-open"></i> Unlock
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-action="LockUnlock" asp-route-id="@item.Id">
+                            <i class="fas fa-lock"></i> Lock
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

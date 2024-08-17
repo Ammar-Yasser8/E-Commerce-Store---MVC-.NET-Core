@@ -1,0 +1,14 @@
+C:\Users\amazon\source\repos\Myshop.Entities\bin\Debug\net8.0\Myshop.Entities.deps.json
+C:\Users\amazon\source\repos\Myshop.Entities\bin\Debug\net8.0\Myshop.Entities.dll
+C:\Users\amazon\source\repos\Myshop.Entities\bin\Debug\net8.0\Myshop.Entities.pdb
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.csproj.AssemblyReference.cache
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.AssemblyInfoInputs.cache
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.AssemblyInfo.cs
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.dll
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\refint\Myshop.Entities.dll
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.pdb
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\ref\Myshop.Entities.dll
+C:\Users\amazon\source\repos\Myshop.Entities\bin\Debug\net8.0\Myshop.Entities.runtimeconfig.json
+C:\Users\amazon\source\repos\Myshop.Entities\obj\Debug\net8.0\Myshop.Entities.genruntimeconfig.cache

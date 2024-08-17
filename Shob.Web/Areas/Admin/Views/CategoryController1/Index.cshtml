@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Mshop.Entities.Model.Category>
+
+@{
+    ViewBag.PageTitle = "Category Mangement";
+    ViewBag.CardTitle = "View Categories";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div>
+    <a class="btn btn-primary" asp-controller="CategoryController1" asp-action="Create">Create Category</a>
+</div>
+<br />
+    <table class="table table-hover" width="100%">
+        <thead class="text-bold">
+        <tr>
+            <td>Name</td>
+            <td>Desription</td>
+            <td>Created Time</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+    @foreach(var item in Model)
+    {
+        <tr>
+
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.CreatedDate</td>
+            <td>
+                <a class="btn btn-success" asp-controller="CategoryController1" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-danger" asp-controller="CategoryController1" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

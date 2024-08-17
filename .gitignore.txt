@@ -1,0 +1,16 @@
+# Ignore Visual Studio directories
+.vs/
+.vscode/
+
+# Ignore build results and logs
+*.bin/
+*.obj/
+*.exe
+*.dll
+*.log
+
+# Ignore Visual Studio user-specific files
+*.user
+*.suo
+*.csproj.user
+*.csproj.vspscc

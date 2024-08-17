@@ -1,0 +1,28 @@
+﻿IEnumerable<Mshop.Entities.ViewModels.OrderVM>
+
+@{
+    ViewBag.PageTitle = "Orders Management";
+    ViewBag.CardTitle = "View Orders";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+
+}
+
+<br />
+<table id="mytable" class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>PhoneNumber</td>
+            <td>Email</td>
+            <td>OrderStatus</td>
+            <td>Total</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+    @section Scripts {
+        <script src="~/js/Order.js"></script>
+    }
